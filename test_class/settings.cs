@@ -10,6 +10,8 @@ namespace test_class
 {
     public static class settings
     {
+        public static bool setting_ready = false;
+
         public class parameter //параметр - bool или string
         {
             public parameter (bool value_b)  //конструктор для bool
@@ -33,6 +35,7 @@ namespace test_class
         {
             { "LOG", new parameter(false)}, //используем ли лог
             { "DEBUG", new parameter(false)}, //используем ли режим отладки (вывод всех ошибок в messageBox)
+            { "DEBUG_SHOW_NOT_ERROR_MES", new parameter(false)}, //выводим не только ошибки
             { "LOG_FILE_NAME", new parameter("log.txt")}, //имя файла лога
             { "LOG_USE_NEW_FILE",new parameter(true)}, //если да - создаёт новый файл лога при каждом запуске программы
             { "LOG_DIR_NAME", new parameter("logs")}, //имя (путь) папки с логами
@@ -112,7 +115,7 @@ namespace test_class
             }
             catch (Exception exc) 
             {
-                MessageBox.Show(exc.ToString());
+                logs.mes_manage(exc.ToString(), true);
                 success_reading_setting = false;
             }
 
@@ -129,7 +132,7 @@ namespace test_class
                         (PARAMETERS[param].value_bool.ToString()) :
                         (PARAMETERS[param].value_string)) + Environment.NewLine;
                 }
-                MessageBox.Show("Настройки считаны из файла" + Environment.NewLine + report);
+                logs.mes_manage("Настройки считаны из файла");
             }
             else //считывание не удалось - пытаемся записать файл с параметрами по умолчанию
             {
@@ -149,14 +152,15 @@ namespace test_class
                                 (PARAMETERS[param].value_string)));
                         }
                         stream.Close(); //закрыли поток
-                        MessageBox.Show("Настройки по умолчанию записаны в файл");
+                        logs.mes_manage("Настройки по умолчанию записаны в файл");
                     }
                 }
                 catch (Exception exc)
                 {
-                    MessageBox.Show(exc.ToString());
+                    logs.mes_manage(exc.ToString(), true);
                 }
             }
+            setting_ready = true;
         }
     }
 }

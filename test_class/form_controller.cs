@@ -28,7 +28,6 @@ namespace test_class
                 {
                     forms.Add(form_);
                 }
-                
             }
 
             string form_names = "";
@@ -36,8 +35,8 @@ namespace test_class
             {
                 form_names += form.Name + "; ";
             }
-            MessageBox.Show(form_names + (typeof(form_manager)).Namespace);
 
+            logs.mes_manage("Обнаружены формы: "+ form_names + "Пространоство имён: " + (typeof(form_manager)).Namespace);
         }
     }
 }

@@ -6,6 +6,3 @@ D:\prj\obrabotka_sobitiy\test_class\test_class\obj\Debug\test_class.Properties.R
 D:\prj\obrabotka_sobitiy\test_class\test_class\obj\Debug\test_class.csproj.GenerateResource.Cache
 D:\prj\obrabotka_sobitiy\test_class\test_class\obj\Debug\test_class.exe
 D:\prj\obrabotka_sobitiy\test_class\test_class\obj\Debug\test_class.pdb
-C:\form_manager\test_class\bin\Debug\test_class.exe.config
-C:\form_manager\test_class\obj\Debug\test_class.exe
-C:\form_manager\test_class\obj\Debug\test_class.pdb
