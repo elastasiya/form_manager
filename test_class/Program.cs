@@ -20,9 +20,7 @@ namespace test_class
             Application.SetCompatibleTextRenderingDefault(false);
 
             settings.read_settings();
-
-            form_manager.fill_forms();
-
+            //form_manager.fill_forms();
             Application.Run(new Form1());
         }
     }

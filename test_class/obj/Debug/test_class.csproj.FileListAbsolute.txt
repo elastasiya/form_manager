@@ -6,3 +6,12 @@ D:\prj\obrabotka_sobitiy\test_class\test_class\obj\Debug\test_class.Properties.R
 D:\prj\obrabotka_sobitiy\test_class\test_class\obj\Debug\test_class.csproj.GenerateResource.Cache
 D:\prj\obrabotka_sobitiy\test_class\test_class\obj\Debug\test_class.exe
 D:\prj\obrabotka_sobitiy\test_class\test_class\obj\Debug\test_class.pdb
+D:\prj\obrabotka_sobitiy\test_class\form_manager\test_class\bin\Debug\test_class.exe.config
+D:\prj\obrabotka_sobitiy\test_class\form_manager\test_class\obj\Debug\test_class.exe
+D:\prj\obrabotka_sobitiy\test_class\form_manager\test_class\obj\Debug\test_class.pdb
+D:\prj\obrabotka_sobitiy\test_class\form_manager\test_class\obj\Debug\test_class.csprojResolveAssemblyReference.cache
+D:\prj\obrabotka_sobitiy\test_class\form_manager\test_class\obj\Debug\test_class.Properties.Resources.resources
+D:\prj\obrabotka_sobitiy\test_class\form_manager\test_class\obj\Debug\test_class.csproj.GenerateResource.Cache
+D:\prj\obrabotka_sobitiy\test_class\form_manager\test_class\bin\Debug\test_class.exe
+D:\prj\obrabotka_sobitiy\test_class\form_manager\test_class\bin\Debug\test_class.pdb
+D:\prj\obrabotka_sobitiy\test_class\form_manager\test_class\obj\Debug\test_class.Form1.resources

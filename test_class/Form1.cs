@@ -16,5 +16,11 @@ namespace test_class
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            string s1 = "lala";
+            
+        }
     }
 }
